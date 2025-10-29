@@ -1,5 +1,7 @@
 # Environment variables
 .env
+*.env
+.env.*
 
 # Python
 __pycache__/
@@ -22,11 +24,17 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+.pytest_cache/
+coverage.xml
+*.cover
+.coverage
+htmlcov/
 
 # Virtual Environment
 venv/
 ENV/
 .venv/
+.python-version
 
 # IDE files
 .idea/
@@ -42,3 +50,8 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
